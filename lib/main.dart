@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
                 left: 30,
                 right: 30,
                 top: 60,
+                bottom: 30,
               ),
               child: Column(
                 children: [
