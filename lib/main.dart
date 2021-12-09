@@ -90,11 +90,24 @@ class MyApp extends StatelessWidget {
                       ),
                     ],
                   ),
-
                   SizedBox(
                     height: 70,
                   ),
-                  // Container(,
+                  Container(
+                    width: 225,
+                    height: 55,
+                    child: RaisedButton(
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(16),
+                      ),
+                      color: Colors.white,
+                      onPressed: () {},
+                      child: Text(
+                        'Update Profile',
+                        style: updateText,
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
