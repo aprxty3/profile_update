@@ -99,7 +99,52 @@ class MyApp extends StatelessWidget {
                       borderRadius: BorderRadius.circular(16),
                     ),
                     color: Colors.white,
-                    onPressed: () {},
+                    onPressed: () {
+                      showBarModalBottomSheet(
+                        context: context,
+                        builder: (BuildContext context) {
+                          return Container(
+                            color: Colors.white,
+                            padding: EdgeInsets.symmetric(vertical: 50),
+                            height: 290,
+                            child: Column(
+                              children: [
+                                Text(
+                                  'Update Photo',
+                                  style: updatePhoto,
+                                ),
+                                SizedBox(
+                                  height: 12,
+                                ),
+                                Text(
+                                  'You are only able to change \nthe picture profile once',
+                                  textAlign: TextAlign.center,
+                                  style: descText,
+                                ),
+                                SizedBox(
+                                  height: 30,
+                                ),
+                                Container(
+                                  width: 225,
+                                  height: 55,
+                                  child: RaisedButton(
+                                    shape: RoundedRectangleBorder(
+                                      borderRadius: BorderRadius.circular(16),
+                                    ),
+                                    color: Color(0xffF9B650),
+                                    onPressed: () {},
+                                    child: Text(
+                                      'Continue',
+                                      style: Cont,
+                                    ),
+                                  ),
+                                )
+                              ],
+                            ),
+                          );
+                        },
+                      );
+                    },
                     child: Text(
                       'Update Profile',
                       style: updateText,
