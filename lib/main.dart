@@ -40,14 +40,14 @@ class MyApp extends StatelessWidget {
                   Column(
                     children: [
                       Text(
-                        'Anne Margaritha',
+                        'Aji Prasetyo',
                         style: nameText,
                       ),
                       SizedBox(
                         height: 4,
                       ),
                       Text(
-                        'UX Designer',
+                        'Mobile Engineer',
                         style: jobText,
                       ),
                     ],
