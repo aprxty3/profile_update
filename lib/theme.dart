@@ -26,3 +26,21 @@ TextStyle updateText = GoogleFonts.poppins(
   fontWeight: FontWeight.w500,
   color: Color(0xff314728),
 );
+
+TextStyle updatePhoto = GoogleFonts.poppins(
+  fontSize: 22,
+  fontWeight: FontWeight.w500,
+  color: Color(0xff314728),
+);
+
+TextStyle descText = GoogleFonts.poppins(
+  fontSize: 18,
+  fontWeight: FontWeight.w400,
+  color: Color(0xffA9B0A6),
+);
+
+TextStyle Cont = GoogleFonts.poppins(
+  fontSize: 16,
+  fontWeight: FontWeight.w500,
+  color: Color(0xffA9B0A6),
+);
