@@ -54,51 +54,34 @@ class MyApp extends StatelessWidget {
                   SizedBox(
                     height: 70,
                   ),
-                  Row(
+                  Wrap(
+                    spacing: 38,
+                    runSpacing: 40,
                     children: [
                       Image.asset(
                         'assets/1.png',
                         width: 80,
                         height: 80,
                       ),
-                      SizedBox(
-                        width: 38,
-                      ),
                       Image.asset(
                         'assets/2.png',
                         width: 80,
                         height: 80,
-                      ),
-                      SizedBox(
-                        width: 38,
                       ),
                       Image.asset(
                         'assets/3.png',
                         width: 80,
                         height: 80,
                       ),
-                    ],
-                  ),
-                  SizedBox(
-                    height: 40,
-                  ),
-                  Row(
-                    children: [
                       Image.asset(
                         'assets/4.png',
                         width: 80,
                         height: 80,
                       ),
-                      SizedBox(
-                        width: 38,
-                      ),
                       Image.asset(
                         'assets/5.png',
                         width: 80,
                         height: 80,
-                      ),
-                      SizedBox(
-                        width: 38,
                       ),
                       Image.asset(
                         'assets/6.png',
@@ -107,8 +90,11 @@ class MyApp extends StatelessWidget {
                       ),
                     ],
                   ),
-                  SizedBox(height: 70,),
-                  Container(,)
+
+                  SizedBox(
+                    height: 70,
+                  ),
+                  // Container(,
                 ],
               ),
             ),
