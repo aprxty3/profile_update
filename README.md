@@ -1,16 +1,13 @@
-# random_ex
+# Xplore Mini Project
+a project to learn using Modal Bottom
 
-A new Flutter project.
+## Figma Design
+https://www.figma.com/file/nhgJHbNvYjGUt2jooCgDpC/Xplore?node-id=0%3A1
 
-## Getting Started
+## Design View
+![image](https://user-images.githubusercontent.com/73772152/145399264-d4c160f9-fe34-48b3-aa24-c3700c3e60a1.png)
 
-This project is a starting point for a Flutter application.
+## Apps View
+![image](https://user-images.githubusercontent.com/73772152/145399332-22f453af-38fe-4f14-a880-2c121c83fd72.png)
+![image](https://user-images.githubusercontent.com/73772152/145402305-91a84c94-88d8-4704-b222-28bcf223d56c.png)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
