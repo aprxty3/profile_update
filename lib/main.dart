@@ -94,13 +94,14 @@ class MyApp extends StatelessWidget {
                 Container(
                   width: 225,
                   height: 55,
-                  child: RaisedButton(
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(16),
-                    ),
-                    color: Colors.white,
+                  child: TextButton(
+                    style: TextButton.styleFrom(
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(16),
+                        ),
+                        backgroundColor: Colors.white),
                     onPressed: () {
-                      showBarModalBottomSheet(
+                      showModalBottomSheet(
                         context: context,
                         builder: (BuildContext context) {
                           return Container(
@@ -127,11 +128,13 @@ class MyApp extends StatelessWidget {
                                 Container(
                                   width: 225,
                                   height: 55,
-                                  child: RaisedButton(
-                                    shape: RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(16),
+                                  child: TextButton(
+                                    style: TextButton.styleFrom(
+                                      shape: RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.circular(16),
+                                      ),
+                                      backgroundColor: Color(0xffF9B650),
                                     ),
-                                    color: Color(0xffF9B650),
                                     onPressed: () {},
                                     child: Text(
                                       'Continue',
